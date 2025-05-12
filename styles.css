@@ -64,20 +64,25 @@ body{
     .bio {
         width: 90%;
         font-size: 15px;
-        margin-top: 60px;
+        margin-top: 80px;
         padding: 10px;
     }
 
     .links ul {
-        display: flex;
+        justify-content: space-around;
+        padding: 0;
         flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
     }
 
     .links ul li {
-        margin: 5px 0;
+        margin: 10px 15px;
     }
+
+    .header {
+        padding: 10px 0;
+    }
+}
+
 
     .header {
         padding: 10px 0;
