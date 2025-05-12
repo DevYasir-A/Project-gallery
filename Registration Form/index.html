@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+
+<body>
+    <center>
+        <form action="./Thankyou page.html" method="get">
+            <img src="./images/saylani.jpg" alt="Saylani LOGO">
+            <h1>Saylani Online Academy</h1>
+            <table border="0px" bgcolor=" lightgray">
+                <tbody>
+                    <tr>
+                        <td align="center" colspan="3">
+                            <h2>
+                                Student Registration Form
+                            </h2>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Name: &emsp;</td>
+                        <td><input type="text" name="name" id="name" placeholder="Name" required
+                                style="margin-bottom: 5px;" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Father's Name: &emsp;</td>
+                        <td><input type="text" name="F-name" id="F-name" placeholder="Father's name" required
+                                style="margin-bottom: 5px;" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Password: &emsp;</td>
+                        <td><input maxlength="13" type="password" name="password" id="pass" required
+                                style="margin-bottom: 5px;" size="25"></td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Address: &emsp;</td>
+                        <td><textarea name="Address" id="Address" cols="25" rows="5" required
+                                style="margin-bottom: 5px;"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Gender: &emsp;</td>
+                        <td>
+                            <input type="radio" name="Gender" id="Male" style="margin-bottom: 5px;" required>
+                            Male
+                            <input type="radio" name="Gender" id="Female" style="margin-bottom: 5px;">
+                            Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Language: &emsp;</td>
+                        <td>
+                            <input type="checkbox" name="lang" id="urdu" style="margin-bottom: 5px;">Urdu
+                            <input type="checkbox" name="lang" id="english" style="margin-bottom: 5px;">English
+                            <input type="checkbox" name="lang" id="sindhi" style="margin-bottom: 5px;">Sindhi
+                            <input type="checkbox" name="lang" id="Pashto" style="margin-bottom: 5px;">Pashto &ensp;
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Date of Birth: &emsp;</td>
+                        <td><input type="date" name="DOB" id="DOB" style="margin-bottom: 5px;" size="25" required></td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Email ID: &emsp;</td>
+                        <td><input type="email" name="email" id="email" placeholder="Email ID"
+                                style="margin-bottom: 5px;" size="25" required></td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Mobile Number: &emsp;</td>
+                        <td><input type="number" name="contact" id="contact" placeholder="Mobile Number"
+                                style="margin-bottom: 5px;" size="25" minlength="11" required></td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; City: &emsp;</td>
+                        <td><select name="city" id="city" style="margin-bottom: 5px;" required>
+                                <option value="#" selected disabled>select your city</option>
+                                <option value="hyd">Hyderabad</option>
+                                <option value="khi">Karachi</option>
+                                <option value="lhr">Lahore</option>
+                                <option value="isb">Islamabad</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Hobbies: &emsp;</td>
+                        <td><select name="hobbies" id="hobbies" style="margin-bottom: 5px;" multiple required>
+                                <option value="#" selected disabled>select your hobbies</option>
+                                <option value="coding">Coding</option>
+                                <option value="reading">Reading</option>
+                                <option value="gaming">Gaming</option>
+                                <option value="cooking">Cooking</option>
+                            </select></td>
+                    </tr>
+                    <tr>
+                        <td>&ensp; Picture Upload: &emsp;</td>
+                        <td><input type="file" name="pic" id="pic" accept=".jpg , .png , .jpeg" style="margin-bottom: 5px;" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" align="center"><input type="submit" name="submit" id="submit" style="margin-bottom: 5px;"></td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
